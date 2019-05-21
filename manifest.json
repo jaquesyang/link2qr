@@ -1,0 +1,15 @@
+{
+    "manifest_version":2,
+    "name":"link2qr",
+    "version":"0.0.1",
+    "description":"Link to QR code",
+    "background":{
+        "scripts":["background.js"]
+    },
+    "permissions":[
+        "contextMenus",
+        "tabs",
+        "http://*/*",
+        "https://*/*"
+    ]
+}
