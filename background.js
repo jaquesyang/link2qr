@@ -1,7 +1,8 @@
 
 function generateQRCode(text){
-    //var prefix='http://qr.topscan.com/api.php?w=250&text=';
     text = encodeURIComponent(text);
+    
+    //var prefix='http://qr.topscan.com/api.php?w=250&text=';
     var prefix='qr.html#';
     var url=prefix + text;
     console.log(url);
